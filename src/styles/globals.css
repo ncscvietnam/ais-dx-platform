@@ -2,3 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.slick-slider {
+  position: static !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: white !important;
+  width: 100%;
+}

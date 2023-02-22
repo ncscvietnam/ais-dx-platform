@@ -13,7 +13,7 @@ const Dashboard = () => {
   return (
     <div className="flex min-h-screen flex-col">
       <header className=" bg-white font-semibold uppercase ">
-        <div className="sticky top-0 flex  h-24 w-48 justify-items-start  ">
+        <div className="sticky top-0 mx-auto flex h-24 w-48 md:mx-0 md:justify-items-start">
           <Image
             src={LogoAISIcon}
             alt="logo"

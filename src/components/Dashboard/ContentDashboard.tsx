@@ -35,7 +35,7 @@ const ContentDashboard = () => {
     <main className="flex-1">
       <div className="col-span-12">
         <div className="  bg-grey-300 p-10">
-          <div className="flex flex-row rounded-lg bg-primary p-5">
+          <div className="flex flex-col rounded-lg bg-primary p-5 md:flex-row">
             <Image
               src={MegaPhoneIcon}
               alt="logo"

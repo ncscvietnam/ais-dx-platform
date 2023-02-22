@@ -3,7 +3,7 @@ const TabSelected = (props: any) => {
   return (
     tabs &&
     tabs.length > 0 && (
-      <div className=" grid w-96 grid-cols-4 gap-2 ">
+      <div className=" grid w-full grid-cols-4 gap-2 xl:w-96 ">
         {tabs.map((tab: any, index: any) => {
           return (
             <div

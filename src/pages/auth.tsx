@@ -26,7 +26,7 @@ const settings = {
 const Auth = () => {
   return (
     <div className="h-screen overflow-hidden lg:grid lg:grid-cols-[44%_56%]">
-      <div className="mx-auto px-10 pt-24 lg:pr-10 lg:pl-20 ">
+      <div className="mx-auto px-10 pt-24 lg:pr-10 lg:pl-20 pb-7">
         <div className="mx-auto flex flex-col items-center lg:max-w-xl 2xl:max-w-2xl">
           <div className="mb-[70px]">
             <Image
@@ -42,7 +42,7 @@ const Auth = () => {
           <h1 className="mb-5 self-start text-3xl font-bold text-dark/90">
             Chào mừng <br /> đến nền tảng làm việc số
           </h1>
-          <p className="mb-16 text-grey-500">
+          <p className="mb-5 lg:mb-16 text-grey-500">
             Nền tảng là nơi giới thiệu, chia sẻ, lưu trữ tri thức của Cục An
             toàn thông tin; đồng thời cho phép cán bộ của Cục làm việc, trao
             đổi, học tập, rèn luyện trực tuyến mọi lúc, mọi nơi.

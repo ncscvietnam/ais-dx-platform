@@ -30,7 +30,7 @@ const Dashboard = () => {
       <Modal
         handleClose={() => setIsOpen(false)}
         isShow={isOpen}
-        valueModal={<ModalContent isOpen={isOpen} setIsOpen={setIsOpen}/>}
+        valueModal={<ModalContent isOpen={isOpen} setIsOpen={setIsOpen} />}
       />
     </div>
   );

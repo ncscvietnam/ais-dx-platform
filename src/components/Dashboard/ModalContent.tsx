@@ -7,7 +7,7 @@ import aisLogo from "../../assets/svg/ais-logo.svg";
 const ModalContent = ({ setIsOpen, isOpen }: any) => {
   const [selected, setSelected] = useState<null | number>(null);
   return (
-    <div className="flex flex-col px-32 pb-11">
+    <div className="flex flex-col pb-5 lg:px-32 lg:pb-11">
       <Image
         src={aisLogo}
         alt="AIS Logo"

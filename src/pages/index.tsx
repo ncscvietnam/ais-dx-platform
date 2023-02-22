@@ -1,5 +1,5 @@
-import ButtonLogin from '@/common/ButtonLogin'
-import Head from 'next/head'
+import Head from "next/head";
+import Dashboard from "./dashboard";
 
 export default function Home() {
   return (
@@ -12,8 +12,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
             </Head>
       <main>
-        AIS-DX
+        <Dashboard />
       </main>
     </>
-  )
+  );
 }

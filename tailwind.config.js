@@ -20,9 +20,10 @@ module.exports = {
         200: "#CDF4FF",
         300: "#A0D7E7",
         400: "#3F8CFF",
-        500: "#244CB2",
+        500: "#1C6EE9",
         600: "#002685",
       },
+      "pale-blue": "#0080FF",
       yellow: "#FFCE73",
       "light-yellow": {
         100: "#FFF3DC",
@@ -34,9 +35,16 @@ module.exports = {
         300: "#E6E8F0",
         400: "#D8DAE5",
         500: "#8F95B2",
-      }
+      },
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        onboarding: "url('/src/assets/images/onboarding.png')",
+      },
+      fontSize: {
+        "3xl": ["2rem", "40px"],
+      },
+    },
   },
   plugins: [
     require("flowbite/plugin")

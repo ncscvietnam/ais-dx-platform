@@ -1,10 +1,10 @@
 import { modalOptions } from "@/const";
 import Image from "next/image";
-import React, { useState } from "react";
+import { useState } from "react";
 
 import aisLogo from "../../assets/svg/ais-logo.svg";
 
-const ModalContent = ({ setIsOpen, isOpen }) => {
+const ModalContent = ({ setIsOpen, isOpen }: any) => {
   const [selected, setSelected] = useState<null | number>(null);
   return (
     <div className="flex flex-col px-32 pb-11">
@@ -40,7 +40,10 @@ const ModalContent = ({ setIsOpen, isOpen }) => {
             );
           })}
         </div>
-        <button className="sm:text-md block w-full flex-1 rounded-lg border border-[#6554d518] bg-blue-500 p-3.5 text-white outline-none" onClick={() => setIsOpen(false)}>
+        <button
+          className="sm:text-md block w-full flex-1 rounded-lg border border-[#6554d518] bg-blue-500 p-3.5 text-white outline-none"
+          onClick={() => setIsOpen(false)}
+        >
           Xác nhận
         </button>
       </div>

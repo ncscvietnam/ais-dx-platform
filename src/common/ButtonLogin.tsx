@@ -1,7 +1,7 @@
-import { useAppDispatch, useAppSelector } from 'hooks/redux'
+import { useAppDispatch, useAppSelector } from '../hooks/redux'
 import { signIn, signOut } from 'next-auth/react'
 import { useEffect } from 'react'
-import { setLoggedIn, setToken } from 'redux/slices/auth'
+import { setLoggedIn, setToken } from '../redux/slices/auth'
 
 import Button from './Button'
 

@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Auth from "./auth";
 import Dashboard from "./dashboard";
 
 export default function Home() {
@@ -12,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
             </Head>
       <main>
-        <Dashboard />
+        <Auth />
       </main>
     </>
   );

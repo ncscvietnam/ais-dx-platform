@@ -1,9 +1,15 @@
 import DrawerDashboard from "@/components/Dashboard/AsideDashboard";
 import ContentDashboard from "@/components/Dashboard/ContentDashboard";
+import Modal from "@/common/Modal";
+import ModalContent from "@/components/Dashboard/ModalContent";
+
 import LogoAISIcon from "../../assets/png/logoAIS.png";
 
 import Image from "../../components/Image";
+import { useState } from "react";
 const Dashboard = () => {
+  const [isOpen, setIsOpen] = useState(true);
+
   return (
     <div className="flex min-h-screen flex-col">
       <header className=" bg-white font-semibold uppercase ">
@@ -21,6 +27,11 @@ const Dashboard = () => {
 
         <ContentDashboard />
       </div>
+      <Modal
+        handleClose={() => setIsOpen(false)}
+        isShow={isOpen}
+        valueModal={<ModalContent isOpen={isOpen} setIsOpen={setIsOpen}/>}
+      />
     </div>
   );
 };
